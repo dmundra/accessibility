@@ -21,8 +21,11 @@ jobs:
       - name: Install pa11y-ci dependencies.
         run: npm install
 
-      - name: Start up server and run pa11y-ci.
-        run: npm run a11y-check
+      - name: Start up jekyll server.
+        run: npm run start-detached
+
+      - name: Run pa11y-ci.
+        run: npm run pa11y-ci:home
 
       - name: Generate pa11y HTML report.
         run: npm run pa11y-ci:output
