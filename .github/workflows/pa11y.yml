@@ -25,10 +25,10 @@ jobs:
         run: npm run start-detached
 
       - name: Run pa11y-ci.
-        continue-on-error: true
         run: npm run pa11y-ci:sitemap
 
       - name: Generate pa11y HTML report.
+        if: ${{ always() }}
         run: npm run pa11y-ci:output
 
       - name: Save pa11y HTML report.
