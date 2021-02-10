@@ -25,7 +25,14 @@ jobs:
         run: npm run start-detached
 
       - name: Run pa11y-ci.
-        run: npm run pa11y-ci:home
+        run: npm run pa11y-ci:sitemap
 
       - name: Generate pa11y HTML report.
+        continue-on-error: true
         run: npm run pa11y-ci:output
+
+      - name: Save pa11y HTML report.
+        uses: actions/upload-artifact@v2
+        with:
+          name: pa11y_report
+          path: pa11y_report
