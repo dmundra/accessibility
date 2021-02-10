@@ -21,5 +21,8 @@ jobs:
       - name: Install pa11y-ci dependencies.
         run: npm install
 
-      - name: Start up server and run pa11y-ci
+      - name: Start up server and run pa11y-ci.
         run: npm run a11y-check
+
+      - name: Generate pa11y HTML report.
+        run: npm run pa11y-ci:output
