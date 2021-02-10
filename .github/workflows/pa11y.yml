@@ -1,6 +1,5 @@
 name: pa11y tests
 
-# Triggers the workflow on push or pull request events
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
@@ -25,7 +24,7 @@ jobs:
         run: npm run start-detached
 
       - name: Run pa11y-ci.
-        run: npm run pa11y-ci:sitemap
+        run: npm run pa11y-ci:home
 
       - name: Display failure instructions.
         if: ${{ failure() }}
