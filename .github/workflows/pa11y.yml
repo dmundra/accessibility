@@ -12,12 +12,11 @@ jobs:
       - name: Checkout source.
         uses: actions/checkout@v2
 
-      - name: Install jekyll site dependencies
+      - name: Install jekyll site dependencies.
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.6
           bundler-cache: true
-      - run: bundle install
 
       - name: Install pa11y ci and pa11y report generator.
         run: |
@@ -27,5 +26,5 @@ jobs:
       - name: Start up server and run pa11y-ci
         run: |
           bundle exec jekyll serve --detach
-          pa11y-ci --sitemap http://localhost:4000/sitemap.xml --json > out.json
-          pa11y-ci-reporter-html -s out.json -d actions/pa11y-report
+          ./node_modules/.bin/pa11y-ci --sitemap http://localhost:4000/sitemap.xml --json > out.json
+          ./node_modules/.bin/pa11y-ci-reporter-html -s out.json -d actions/pa11y-report
