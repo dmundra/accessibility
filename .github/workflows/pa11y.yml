@@ -27,11 +27,16 @@ jobs:
       - name: Run pa11y-ci.
         run: npm run pa11y-ci:sitemap
 
+      - name: Display failure instructions.
+        if: ${{ failure() }}
+        run: echo "pa11y-ci found some accessibility issues, download 'pa11y_report' under artifacts to see the errors."
+
       - name: Generate pa11y HTML report.
         if: ${{ always() }}
         run: npm run pa11y-ci:output
 
       - name: Save pa11y HTML report.
+        if: ${{ always() }}
         uses: actions/upload-artifact@v2
         with:
           name: pa11y_report
