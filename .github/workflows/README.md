@@ -19,3 +19,4 @@ The commands can also be run locally to generate the same test results:
 * https://engineering.18f.gov/accessibility-scanning/
 * https://medium.com/@f3igao/how-to-automate-web-accessibility-testing-921512bdd4bf
 * https://stackoverflow.com/questions/58858429/how-to-run-a-github-actions-step-even-if-the-previous-step-fails-while-still-f
+* https://docs.gitlab.com/ee/user/project/merge_requests/accessibility_testing.html

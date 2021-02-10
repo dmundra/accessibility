@@ -24,7 +24,7 @@ jobs:
         run: npm run start-detached
 
       - name: Run pa11y-ci.
-        run: npm run pa11y-ci:home
+        run: npm run pa11y-ci:sitemap
 
       - name: Display failure instructions.
         if: ${{ failure() }}
