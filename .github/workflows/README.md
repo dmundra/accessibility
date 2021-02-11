@@ -5,7 +5,9 @@
 Tests the site for accessibility issues using pa11y-ci. The results of the tests are shown in HTML that has to be
 downloaded from GitHub under 'Artifacts' and viewed locally.
 
-The commands can also be run locally to generate the same test results:
+pa11y-ci is configured with the file [.pa11yci](.pa11yci).
+
+The pa11y-ci commands can also be run locally to generate the same test results:
 
 * `npm run start-detached` this will start the local server in a detached state.
 * `npm run pa11y-ci:home` run pa11y-ci against the home page.
