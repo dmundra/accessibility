@@ -15,6 +15,8 @@ The commands can also be run locally to generate the same test results:
 
 # References
 
+* https://github.com/pa11y/pa11y
+* https://github.com/pa11y/pa11y-ci
 * https://andrewmee.com/posts/automated-accessibility-testing-node-travis-ci-pa11y/
 * https://engineering.18f.gov/accessibility-scanning/
 * https://medium.com/@f3igao/how-to-automate-web-accessibility-testing-921512bdd4bf
