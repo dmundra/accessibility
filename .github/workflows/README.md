@@ -15,6 +15,10 @@ The pa11y-ci commands can also be run locally to generate the same test results:
   the error 'Error: Process completed with exit code 2.' when there are accessibility issues detected.
 * `npm run pa11y-ci:output` save the pa11y-ci output in a readable HTML format.
 
+### Axe
+
+To run pa11y with axe replace the .pa11yci file with [.pa11yci_with_axe](.pa11yci_with_axe) before execution.
+
 # References
 
 * https://github.com/pa11y/pa11y

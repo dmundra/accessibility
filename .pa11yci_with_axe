@@ -1,5 +1,6 @@
 {
   "defaults": {
     "standard": "WCAG2AA",
+    "runners": ["axe"]
   }
 }
