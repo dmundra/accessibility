@@ -28,9 +28,7 @@ jobs:
         run: echo "::set-output name=pa11y-ci-output::$(npm run pa11y-ci:home)"
         
       - name: Comment on pull request
-        uses: actions/github-script@0.3.0
+        uses: thollander/actions-comment-pull-request@1.0.0
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const { issue: { number: issue_number }, repo: { owner, repo }  } = context;
-            github.issues.createComment({ issue_number, owner, repo, body: ${{  steps.pa11y_test_results.outputs.pa11y_test_results }} });
+          message: '${{ steps.pa11y_test_results.outputs.pa11y_test_results }}'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
