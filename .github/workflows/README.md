@@ -19,6 +19,10 @@ The pa11y-ci commands can also be run locally to generate the same test results:
 
 To run pa11y with axe replace the .pa11yci file with [.pa11yci_with_axe](.pa11yci_with_axe) before execution.
 
+## reviewdog.yml
+
+Run remark-lint with reviewdog on pull requests to check for readibility and other text checks.
+
 # References
 
 * https://github.com/pa11y/pa11y
