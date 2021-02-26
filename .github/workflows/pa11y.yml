@@ -34,9 +34,7 @@ jobs:
           path: ./pa11y_output.txt
         
       - name: Comment on pull request.
-        uses: actions/github-script@v3
+        uses: thollander/actions-comment-pull-request@master
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const { issue: { number: issue_number }, repo: { owner, repo }  } = context;	
-            github.issues.createComment({ issue_number, owner, repo, body: '${{ steps.pa11y_output.outputs.content }}' });
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: '${{ steps.pa11y_output.outputs.content }}'
