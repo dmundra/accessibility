@@ -24,10 +24,9 @@ jobs:
         run: npm run start-detached
 
       - name: Run pa11y-ci.
-        run: npm run pa11y-ci:home 2>&1 | tee pa11y_output.txt
+        run: npm run pa11y-ci:sitemap 2>&1 | tee pa11y_output.txt
         
       - name: Read pa11y_output file.
-        continue-on-error: true
         id: pa11y_output
         uses: juliangruber/read-file-action@v1
         with:
