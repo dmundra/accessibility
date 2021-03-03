@@ -40,4 +40,9 @@ jobs:
           
       - name: Check for pa11y failures.
         if: contains(steps.pa11y_output.outputs.content, 'errno 2')
-        run: echo "Some of the URLs are failing accessibility tests. Please review the comment or the pa11y-ci step for details."; exit 1
+        run: |
+          echo "::group::pa11y errors"
+          echo "Some of the URLs are failing accessibility tests. Please review the comment in the pull request or the pa11y-ci step above for details."
+          echo "::endgroup::"
+          exit 1
+
