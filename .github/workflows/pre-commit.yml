@@ -15,11 +15,11 @@ jobs:
       # Skip checks that don't auto-fix issues initially.
       - uses: pre-commit/action@v2.0.0
         env:
-          SKIP: remark,codespell,check-yaml,check-json,check-added-large-files
+          SKIP: remark,check-yaml,check-json,check-added-large-files
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       # Final run without committing to ensure passes.
       - uses: pre-commit/action@v2.0.0
         env:
           # We skip checks that have their own actions.
-          SKIP: remark,codespell. 
+          SKIP: remark. 
