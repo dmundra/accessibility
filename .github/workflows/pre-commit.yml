@@ -22,4 +22,4 @@ jobs:
       - uses: pre-commit/action@v2.0.0
         env:
           # We skip checks that have their own actions.
-          SKIP: remark. 
+          SKIP: remark.
