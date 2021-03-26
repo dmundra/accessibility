@@ -1,16 +1,16 @@
 # Accessibility
 
-This aims to be the single source of truth for work on digital accessibility at CivicActions. This work is being done in the open so that we can have people outside of CivicActions collaborate and so that we can more easily keep up with the work that other accessibility experts are doing. This is not a duplication of the [CivicActions Handbook Accessibility Section](https://handbook.civicactions.com/en/latest/060-engineering/accessibility/#accessibility) but more of a working 
+This aims to be the single source of truth for work on digital accessibility at CivicActions. This work is being done in the open so that we can have people outside of CivicActions collaborate and so that we can more easily keep up with the work that other accessibility experts are doing. This is not a duplication of the [CivicActions Handbook Accessibility Section](https://handbook.civicactions.com/en/latest/060-engineering/accessibility/#accessibility) but more of a working
 
 ## Why do this work?
 
-Diversity equity and inclusion are key to any effective team, and CivicActions is no exception. Accessibility is a key part of this, as over 26% of Americans identify as having a disability. Our team is excited about finding new ways to build better products, and this includes removing barriers for people with disabilities. 
+Diversity equity and inclusion are key to any effective team, and CivicActions is no exception. Accessibility is a key part of this, as over 26% of Americans identify as having a disability. Our team is excited about finding new ways to build better products, and this includes removing barriers for people with disabilities.
 
 ## Our Services
 
-CivicActions has deep experience with open source software and agile development - both lend themselves to great accessibility practices. 
+CivicActions has deep experience with open source software and agile development - both lend themselves to great accessibility practices.
 
-It is by working with a global community that Drupal has become an accessibility leader in the Content Management Systems. Our team has extensive experience working leveraging open source communities to help our clients accomplish their needs. The core of agile software development is to be iterative and obsessively focused on user needs. The earlier you are able to bring accessibility into your software development process, the cheaper and more flexible it will be. We build accessibility into our process so that there aren't compliance surprises at the end of the project. 
+It is by working with a global community that Drupal has become an accessibility leader in the Content Management Systems. Our team has extensive experience working leveraging open source communities to help our clients accomplish their needs. The core of agile software development is to be iterative and obsessively focused on user needs. The earlier you are able to bring accessibility into your software development process, the cheaper and more flexible it will be. We build accessibility into our process so that there aren't compliance surprises at the end of the project.
 
 We are ultimately a design/development agency, so we would love to build your next digital project. We also have experienced educators who can provide training for your team, particularly in government. Finally, we bring a systems approach to accessibility, so can help your team identify the accessibility barriers in your site today, as well as to avoid the ones that will be introduced tomorrow.
 
@@ -28,7 +28,7 @@ We are ultimately a design/development agency, so we would love to build your ne
 - Client Accessibility Onboarding
 - Testing Best Practices
 - Practice Area Site
-- How we work 
+- How we work
     - [Public: Current GitHub Project Board](https://github.com/CivicActions/accessibility/projects/1)
     - *[CA Only: Old Trello Project Board](https://trello.com/b/XjQhpgEF/civicactions-accessibility)*
     - *[CA Only: Depreciated Engineering Framework Project Board](https://trello.com/b/LVtWTgkS/engineering-framework)*

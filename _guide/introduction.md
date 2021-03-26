@@ -2,7 +2,7 @@
 layout: guide
 title: Introduction
 description: Getting started.
-excerpt: 
+excerpt:
 sidenav: docs
 categories:
   - Accessibility

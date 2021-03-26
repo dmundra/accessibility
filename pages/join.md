@@ -15,4 +15,4 @@ layout: post
 * Add to the [issue queue](https://github.com/CivicActions/accessibility/issues)
 * Help us edit pages and submit pull requests
 * Follow us on [Twitter](https://twitter.com/CivicActions)
-* Keep watching for [opportunities](https://civicactions.com/careers)! 
+* Keep watching for [opportunities](https://civicactions.com/careers)!

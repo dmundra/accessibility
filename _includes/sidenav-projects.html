@@ -3,7 +3,7 @@
         {% for item in site.data.projects.docs %}
         <li><a href="{{ site.baseurl}}/projects{{ item.url }}" class="list-group-item list-group-item-action {% if item.url == page.url %}active{% endif %}">{{ item.title }}</a></li>
         {% endfor %}
-        <!--    
+        <!--
     {% for link in include.links %}
       {% assign _href = link.href %}
       {% assign _current = false %}

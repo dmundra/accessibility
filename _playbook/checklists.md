@@ -1,15 +1,15 @@
 ---
 layout: playbook
 title: Use Checklists
-description: 
-excerpt: 
+description:
+excerpt:
 sidenav: docs
 categories:
   - Accessibility
 
 ---
 
-Checklists can be very useful, but there is no single checklist that will cover all WCAG issues. An organization can choose to build one or customize one to meet their needs. Ultimately though, it is useful to change the review process on a regular basis to ensure that people continue to learn new ways to create better content. 
+Checklists can be very useful, but there is no single checklist that will cover all WCAG issues. An organization can choose to build one or customize one to meet their needs. Ultimately though, it is useful to change the review process on a regular basis to ensure that people continue to learn new ways to create better content.
 
 Tools like [Accessibility Insights](https://accessibilityinsights.io/) have an assessment component that guides users through a fine tooth manual review of a webpage. Using this tool, organizations could:
 
@@ -18,7 +18,7 @@ Tools like [Accessibility Insights](https://accessibilityinsights.io/) have an a
 * Look over the elements that are marked Needs reviews to see if there are elements where a manual review can identify whether it is an issue or not.
 * Complete the rest of the assessment to ensure that the page meets WCAG requirements.
 
-This is a time consuming process, but would give the reviewer a high level of confidence that the site has good accessibility. 
+This is a time consuming process, but would give the reviewer a high level of confidence that the site has good accessibility.
 
 One could also look to use a tool like WebAim's WAVE, ANDI, or Tota11y to scan a web page for errors. In which case a reviewer could do something like this:
 

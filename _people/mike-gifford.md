@@ -9,10 +9,10 @@ categories:
 linkedin: https://www.linkedin.com/in/mgifford/
 twitter: https://twitter.com/mgifford
 github: https://github.com/mgifford
-gitlab: 
-drupal: 
-speakerdeck: 
-website: 
+gitlab:
+drupal:
+speakerdeck:
+website:
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: playbook
 title: Provide Role Based Evaluations
-description: 
-excerpt: 
+description:
+excerpt:
 sidenav: docs
 categories:
   - Accessibility
@@ -50,7 +50,7 @@ We've taken these two lists, added other roles that we didn't see included and i
 * DevOps
     * **Tools:** [pa11y](https://pa11y.org/) and [Accessibility Insights](https://accessibilityinsights.io/).
     * Resources: [Blog - Embedding Accessibility into the DevOps Process](https://devops.com/embedding-accessibility-into-the-devops-process/).
-* Digital Performance Analyst - [UK](https://accessibility-manual.dwp.gov.uk/guidance-for-your-job-role/digital-performance-analyst)    
+* Digital Performance Analyst - [UK](https://accessibility-manual.dwp.gov.uk/guidance-for-your-job-role/digital-performance-analyst)
     * "As a Digital Performance Analyst, most of your considerations will be around presenting statistical data so that they don't exclude anybody that might not be able to perceive complex charts or tables of data."
     * **Tools:** [WebAim's WAVE Toolbar](https://wave.webaim.org/extension/).
 * Front End Engineer - [USA](https://accessibility.digital.gov/front-end/getting-started/), & [BBC](https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-developers)
@@ -78,7 +78,7 @@ We've taken these two lists, added other roles that we didn't see included and i
         * Find ways to prioritize common, weird and critical barriers that are discovered in QA.
         * Identify where to include people with disabilities in the process.
     * Resources: [BBC's Product Owner Checklists](https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-product-owners) & [BBC's Project Managers Checklist](https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-product-owners), [Planning and Managing Web Accessibility](https://www.w3.org/WAI/planning-and-managing/), [Managing for Accessibility](https://www.washington.edu/accessibility/managing/).
-* Procurement Manager 
+* Procurement Manager
     * **Tools:** [WebAim's WAVE Toolbar](https://wave.webaim.org/extension/).
     * Resources: [DisabilityIN - Accessible Technology Procurement Toolkit](https://private.disabilityin.org/procurementtoolkit/).
 * QA Tester - [UK](https://accessibility-manual.dwp.gov.uk/guidance-for-your-job-role/qa-tester), [BBC](https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-testers)
@@ -120,7 +120,7 @@ We've taken these two lists, added other roles that we didn't see included and i
         * See more from [BBC's Checklists](https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-designers) including information about an [accessibility design review](https://bbc.github.io/accessibility-news-and-you/guides/accessibility-design-review.html).
     * Resources: W3C -  Designing for Web Accessibility, Stop Designing For Only 85% Of Users: Nailing Accessibility In Design, Designing For Accessibility And Inclusion, BBC - How to design for accessibility.
 
-We plan to continue to add to this as other role specific advice becomes relevant. The W3C's [ARRM Project - Accessibility Roles and Responsibilities Mapping](https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping) will be mapping this out in more detail in the years to come. 
+We plan to continue to add to this as other role specific advice becomes relevant. The W3C's [ARRM Project - Accessibility Roles and Responsibilities Mapping](https://www.w3.org/WAI/EO/wiki/ARRM_Project_-_Accessibility_Roles_and_Responsibilities_Mapping) will be mapping this out in more detail in the years to come.
 
 ## Checklist
 

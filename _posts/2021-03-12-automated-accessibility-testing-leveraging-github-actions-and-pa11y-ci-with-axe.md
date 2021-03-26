@@ -4,7 +4,7 @@ title:  "Automated accessibility testing: Leveraging GitHub Actions and pa11y-ci
 date:   2021-03-12 07:00:00 -0800
 description: Using GitHub and open source technology -- general and accessibility-specific -- we created a continuous accessibility integration environment that helps us better practice what we preach.
 author: daniel-mundra
-categories: 
+categories:
 image: card-power.png
 ---
 
@@ -76,7 +76,7 @@ Configuration file: /Users/dmundra/workspace/accessibility/accessibility/_config
             Source: /Users/dmundra/workspace/accessibility/accessibility
        Destination: /Users/dmundra/workspace/accessibility/accessibility/_site
  Incremental build: disabled. Enable with --incremental
-      Generating... 
+      Generating...
                     done in 8.217 seconds.
  Auto-regeneration: disabled when running server detached.
     Server address: http://127.0.0.1:4000
@@ -134,13 +134,13 @@ jobs:
 
       - name: Run pa11y-ci.
         run: npm run pa11y-ci:sitemap 2>&1 | tee pa11y_output.txt
-        
+
       - name: Read pa11y_output file.
         id: pa11y_output
         uses: juliangruber/read-file-action@v1
         with:
           path: ./pa11y_output.txt
-        
+
       - name: Comment on pull request.
         uses: thollander/actions-comment-pull-request@master
         with:

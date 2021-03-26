@@ -1,8 +1,8 @@
 ---
 layout: guide
 title: Glossary
-description: 
-excerpt: 
+description:
+excerpt:
 sidenav: docs
 categories:
   - Accessibility

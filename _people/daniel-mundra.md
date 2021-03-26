@@ -5,13 +5,13 @@ author: daniel-mundra
 name: Daniel Mundra
 image: daniel-mundra.jpg
 categories:
- - 
-linkedin: 
-twitter: 
+ -
+linkedin:
+twitter:
 github: https://github.com/dmundra
-gitlab: 
+gitlab:
 drupal: https://www.drupal.org/u/dmundra
-speakerdeck: 
+speakerdeck:
 website: https://www.danielmundra.com/
 
 ---

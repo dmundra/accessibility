@@ -1,8 +1,8 @@
 ---
 layout: guide
 title: Design systems
-description: 
-excerpt: 
+description:
+excerpt:
 sidenav: docs
 categories:
   - Accessibility

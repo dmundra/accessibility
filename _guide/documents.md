@@ -1,14 +1,14 @@
 ---
 layout: guide
 title: Documents
-description: 
-excerpt: 
+description:
+excerpt:
 sidenav: docs
 categories:
   - Accessibility
 
 ---
- 
+
 For Microsoft Word/Powerpoint, portable document formats and electronic publication documents.
 
 *   [Why GOV.UK content should be published in HTML and not PDF](https://gds.blog.gov.uk/2018/07/16/why-gov-uk-content-should-be-published-in-html-and-not-pdf/) (UK Government Digital Service)

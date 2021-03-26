@@ -10,7 +10,7 @@ assignees: dmundra
 ## To-do:
 
 - [ ] Set up board (copy all columns from previous board - [ex](https://github.com/CivicActions/accessibility/projects/3))
-- [ ] Add new team members to CivicActions GitHub team 
+- [ ] Add new team members to CivicActions GitHub team
 - [ ] Announce to #accessibility channel one week before (see sample text below)
 - [ ] Announce to #accessibility channel day of (see sample text below)
 - [ ] Hold retrospective
@@ -18,7 +18,7 @@ assignees: dmundra
 
 Sample text:
 
-> Hello @channel, next week is our practice area’s retrospective: [DAY], [MONTH] [DATE], [TIME] pm to [TIME] pm PT ([TIME] pm to [TIME] pm ET). We welcome you to attend and you can use this link to add the event and Zoom link to your calendar.
+> Hello @channel, next week is our practice area's retrospective: [DAY], [MONTH] [DATE], [TIME] pm to [TIME] pm PT ([TIME] pm to [TIME] pm ET). We welcome you to attend and you can use this link to add the event and Zoom link to your calendar.
 
 > The retrospective board is available here [LINK] and please feel free to add notes to the different columns between now and then.
 

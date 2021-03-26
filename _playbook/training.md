@@ -1,8 +1,8 @@
 ---
 layout: playbook
 title: Invest in Accessibility Training
-description: 
-excerpt: 
+description:
+excerpt:
 sidenav: docs
 categories:
   - Accessibility

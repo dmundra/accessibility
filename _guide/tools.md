@@ -1,8 +1,8 @@
 ---
 layout: guide
 title: Tools
-description: 
-excerpt: 
+description:
+excerpt:
 sidenav: docs
 categories:
   - Accessibility
@@ -134,7 +134,7 @@ Note: There are no tools that easily fit this criteria. All of these are related
 
 
 *   [PAC 3](https://www.access-for-all.ch/en/pdf-accessibility-checker.html)
-*   [PAVE](https://pave-pdf.org/) 
+*   [PAVE](https://pave-pdf.org/)
 *   [PDF Parser](https://www.pdfparser.org/) - not accessibility focused
 *   [PyPDF2](https://pythonhosted.org/PyPDF2/index.html) - not accessibility focused {#pypdf2-not-accessibility-focused}
 

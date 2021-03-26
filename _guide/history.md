@@ -1,14 +1,14 @@
 ---
 layout: guide
 title: History
-description: 
-excerpt: 
+description:
+excerpt:
 sidenav: docs
 categories:
   - Accessibility
 
 ---
- 
+
 A brief history of digital accessibility.
 
 

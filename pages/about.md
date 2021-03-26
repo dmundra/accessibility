@@ -12,4 +12,3 @@ follow [agile process](agile) and encourage others to do so as well.
 * [Project board](https://github.com/CivicActions/accessibility/projects/1)
 * [Calendar](calendar)
 * [Join us](join)
-
