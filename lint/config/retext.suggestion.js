@@ -7,8 +7,9 @@ var remark2retext = require("remark-retext");
 var english = require("retext-english");
 var contractions = require("retext-contractions");
 var readability = require("retext-readability");
+var simplify = require("retext-simplify");
 var spell = require("retext-spell");
-var dictionary = require('dictionary-en')
+var dictionary = require('dictionary-en');
 var equality = require("retext-equality");
 
 var ignoreWords = [];
@@ -29,5 +30,6 @@ function attacher() {
       })
       .use(equality, { ignore: ignoreWords || [] })
       .use(spell, dictionary)
+      .use(simplify)
   );
 }

@@ -100,7 +100,7 @@ We've taken these lists, added other roles that we didn't see included and inclu
     * Ensure that accessibility is being considered with every sprint (or alternative process).
     * Find ways to prioritize common, weird and critical barriers that are discovered in QA.
     * Identify where to include people with disabilities in the process.
-* Resources: [BBC's Product Owner Checklists](https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-product-owners) & [BBC's Project Managers Checklist](https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-product-owners), [Planning and Managing Web Accessibility](https://www.w3.org/WAI/planning-and-managing/), [Managing for Accessibility](https://www.washington.edu/accessibility/managing/).
+* Resources: [BBC's Product Owner Checklists](https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-product-owners) & [BBC's Project Managers Checklist](https://bbc.github.io/accessibility-news-and-you/accessibility-news-and-project-managers), [Planning and Managing Web Accessibility](https://www.w3.org/WAI/planning-and-managing/), [Managing for Accessibility](https://www.washington.edu/accessibility/managing/).
 
 ## Procurement Manager 
 * **Tools:** [WebAim's WAVE Toolbar](https://wave.webaim.org/extension/).
