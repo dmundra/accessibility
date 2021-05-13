@@ -23,3 +23,9 @@ jobs:
           destination-github-username: 'dmundra'
           destination-repository-name: 'accessibility-qa'
           target-branch: main
+          
+      - name: Comment on pull request.
+        uses: thollander/actions-comment-pull-request@master
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          message: 'QA changes at [https://dmundra.github.io/accessibility-qa/](https://dmundra.github.io/accessibility-qa/).'
