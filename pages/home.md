@@ -8,7 +8,7 @@ hero:
   image: 
   callout:
     alt: 
-    text: Accessibility together.
+    text: Accessibility QA together.
   button:
     href: /join
     text: Join us
