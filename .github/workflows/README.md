@@ -43,3 +43,4 @@ Adding the label 'qa-pull-request' to a pull request will deploy the branch to a
 * https://github.blog/2021-04-28-use-github-actions-manage-docs/
 * https://stackoverflow.com/questions/62325286/run-github-actions-when-pull-requests-have-a-specific-label
 * https://github.com/marketplace/actions/push-directory-to-another-repository
+* https://github.com/marketplace/actions/find-and-replace
