@@ -22,6 +22,8 @@ jobs:
           source-directory: '.'
           destination-github-username: 'dmundra'
           destination-repository-name: 'accessibility-qa'
+          user-email: daniel.mundra@civicactions.com
+          commit-message: See ORIGIN_COMMIT from $GITHUB_REF
           target-branch: main
           
       - name: Comment on pull request.
