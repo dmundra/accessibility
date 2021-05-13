@@ -10,6 +10,7 @@ github_info:
   repository: accessibility
 
 url: "https://accessibility.civicactions.com" # the base hostname & protocol for your site
+baseurl: /accessibility-qa
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
