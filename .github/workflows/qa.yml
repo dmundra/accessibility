@@ -14,12 +14,21 @@ jobs:
       - name: Checkout source.
         uses: actions/checkout@v2
         
-      - name: Push branch to QA repository
+      - name: Install jekyll site dependencies.
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+          bundler-cache: true
+          
+      - name: Build jekyll site.
+        run: bundle exec jekyll build
+        
+      - name: Push site directory to QA repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: '.'
+          source-directory: '_site'
           destination-github-username: 'dmundra'
           destination-repository-name: 'accessibility-qa'
           user-email: daniel.mundra@civicactions.com
