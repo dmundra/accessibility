@@ -13,3 +13,13 @@ jobs:
     steps:
       - name: Checkout source.
         uses: actions/checkout@v2
+        
+      - name: Push branch to QA repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          source-directory: '.'
+          destination-github-username: 'dmundra'
+          destination-repository-name: 'accessibility-qa'
+          target-branch: main
