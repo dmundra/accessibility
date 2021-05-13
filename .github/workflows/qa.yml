@@ -14,12 +14,11 @@ jobs:
       - name: Checkout source.
         uses: actions/checkout@v2
         
-      - name: Find and replace CNAME
+      - name: Find and replace the main site domain
         uses: jacobtomlinson/gha-find-replace@master
         with:
           find: "accessibility.civicactions.com"
           replace: "accessibility-qa.dmundra.dev"
-          include: "CNAME"
         
       - name: Install jekyll site dependencies.
         uses: ruby/setup-ruby@v1
@@ -30,7 +29,7 @@ jobs:
       - name: Build jekyll site.
         run: bundle exec jekyll build
         
-      - name: Push site directory to QA repository
+      - name: Push _site directory to QA repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
@@ -38,7 +37,6 @@ jobs:
           source-directory: '_site'
           destination-github-username: 'dmundra'
           destination-repository-name: 'accessibility-qa'
-          user-email: daniel.mundra@civicactions.com
           commit-message: See ORIGIN_COMMIT from $GITHUB_REF
           target-branch: main
           
@@ -46,4 +44,4 @@ jobs:
         uses: thollander/actions-comment-pull-request@master
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          message: 'QA changes at [https://dmundra.github.io/accessibility-qa/](https://dmundra.github.io/accessibility-qa/).'
+          message: "You can test changes in this branch at [https://accessibility-qa.dmundra.dev/](https://accessibility-qa.dmundra.dev/). If you pushed additional changes, remove and readd the label 'qa-pull-request'."
