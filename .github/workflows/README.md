@@ -24,6 +24,10 @@ Run pre-commit hooks to clean up site based on configurations in .pre-commit-con
 
 Automatically place new/reopened issues in to the project board.
 
+## qa.yml
+
+Adding the label 'qa-pull-request' to a pull request will deploy the branch to a QA site for review.
+
 # References
 
 * https://github.com/pa11y/pa11y
@@ -37,3 +41,5 @@ Automatically place new/reopened issues in to the project board.
 * https://github.com/marketplace/actions/comment-pull-request
 * https://pre-commit.com/
 * https://github.blog/2021-04-28-use-github-actions-manage-docs/
+* https://stackoverflow.com/questions/62325286/run-github-actions-when-pull-requests-have-a-specific-label
+* https://github.com/marketplace/actions/push-directory-to-another-repository
