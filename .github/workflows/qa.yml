@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Building QA site to review pull request
-    if: ${{ github.event.label.name == 'qa-pull-request' }}
+    if: contains(github.event.pull_request.labels.*.name, 'qa-pull-request')
     runs-on: ubuntu-latest
 
     steps:
