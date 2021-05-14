@@ -19,15 +19,6 @@ jobs:
         with:
           find: "accessibility.civicactions.com"
           replace: "accessibility-qa.dmundra.dev"
-          
-      - name: Replace contents of robots.txt
-        uses: jacobtomlinson/gha-find-replace@master
-        with:
-          find: "Sitemap: https://accessibility-qa.dmundra.dev/sitemap.xml"
-          replace: |
-            User-agent: *
-            Disallow: /
-          include: "robots.txt"
         
       - name: Install jekyll site dependencies.
         uses: ruby/setup-ruby@v1
@@ -37,6 +28,15 @@ jobs:
           
       - name: Build jekyll site.
         run: bundle exec jekyll build
+          
+      - name: Replace contents of robots.txt
+        uses: jacobtomlinson/gha-find-replace@master
+        with:
+          find: "Sitemap: https://accessibility-qa.dmundra.dev/sitemap.xml"
+          replace: |
+            User-agent: *
+            Disallow: /
+          include: "robots.txt"
         
       - name: Push _site directory to QA repository
         uses: cpina/github-action-push-to-another-repository@main
