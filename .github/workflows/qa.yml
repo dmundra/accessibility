@@ -19,6 +19,15 @@ jobs:
         with:
           find: "accessibility.civicactions.com"
           replace: "accessibility-qa.dmundra.dev"
+          
+      - name: Replace contents of robots.txt
+        uses: jacobtomlinson/gha-find-replace@master
+        with:
+          find: "Sitemap: https://accessibility-qa.dmundra.dev/sitemap.xml"
+          replace: |
+            User-agent: *
+            Disallow: /
+          include: "robots.txt"
         
       - name: Install jekyll site dependencies.
         uses: ruby/setup-ruby@v1
